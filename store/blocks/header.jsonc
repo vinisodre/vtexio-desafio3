@@ -14,7 +14,9 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": [
+      "flex-layout.row#desktop"
+    ]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -28,8 +30,8 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
       "login",
+      "flex-layout.col#spacer",
       "minicart.v2"
     ]
   },
@@ -77,3 +79,5 @@
     "children": []
   }
 }
+
+
